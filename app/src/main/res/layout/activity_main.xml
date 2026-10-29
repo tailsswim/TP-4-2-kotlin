@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Internet"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnTelecharger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Télécharger les données" />
+
+    <TextView
+        android:id="@+id/txtResultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliquez sur le bouton pour tester Internet."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
